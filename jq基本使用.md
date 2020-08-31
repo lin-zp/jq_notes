@@ -57,5 +57,40 @@ var cr = document.getElementbyId("cr")
 var $cr = $(cr)
 ```
 
+#### JQuery库冲突
 
+##### 1.在其他库后导入jquery库
 
+可在任何时候使用 jQuery.noConflict() 函数将$控制权释放
+
+![image-20200831200439400](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200831200439400.png)
+
+![image-20200831200453374](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200831200453374.png)
+
+也可使用jquery.noConflict()自定义快捷方式：
+
+```
+var $L = jQuery.noConflict();		//自定义快捷方式
+$L(function(){						//使用jQuery库
+	$L("p").click(function(){
+		alert("$L(this).text");
+	})
+})
+$("pp").style.display = "none";		//使用其他库
+```
+
+想使用$且不与其他库冲突：
+
+1.使用jQuery设定页面加载是执行的函数
+
+![image-20200831201126866](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200831201126866.png)
+
+2.定义立即执行的匿名函数，设置形参$与实参
+
+![image-20200831201229464](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200831201229464.png)
+
+![image-20200831201244293](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200831201244293.png)
+
+##### 2.在其他库之前导入jQuery库
+
+![image-20200831201331946](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200831201331946.png)
