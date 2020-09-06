@@ -40,4 +40,4 @@
 
 3.6表单对象属性过滤选择器
 
-![image-20200906163649818](..\images\image-20200906163649818.png)
+![image-20200906163649818](https://github.com/lin-zp/jq_notes/blob/master/images/image-20200906163649818.png)
