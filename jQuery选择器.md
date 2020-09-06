@@ -41,8 +41,9 @@
 ###### 3.6表单对象属性过滤选择器
 
 <<<<<<< HEAD
-![image-20200906163649818](..\jq_notes\images\image-20200906163649818.png)
+![image-20200906163649818](https://github.com/lin-zp/jq_notes/blob/master/images/image-20200906163649818.png)
 
 ##### 4.表单选择器
 
 ![image-20200906210426407](C:\Users\林帅哥\AppData\Roaming\Typora\typora-user-images\image-20200906210426407.png)
+
