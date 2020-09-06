@@ -39,8 +39,6 @@
 ![image-20200906163518925](https://github.com/lin-zp/jq_notes/blob/master/images/image-20200906163518925.png)
 
 ###### 3.6表单对象属性过滤选择器
-
-<<<<<<< HEAD
 ![image-20200906163649818](https://github.com/lin-zp/jq_notes/blob/master/images/image-20200906163649818.png)
 
 ##### 4.表单选择器
